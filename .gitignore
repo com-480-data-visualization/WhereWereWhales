@@ -1,0 +1,6 @@
+# Cache
+__pycache__
+__pycache__/*
+
+# Heavy files
+data/HappyWhales/*
