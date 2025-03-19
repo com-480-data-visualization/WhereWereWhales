@@ -4,3 +4,11 @@ __pycache__/*
 
 # Heavy files
 data/HappyWhales/*
+wiki_images
+wiki_images/*
+images_and_sounds
+images_and_sounds/*
+
+# DS_Store
+.DS_Store
+*/.DS_Store
