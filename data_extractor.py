@@ -4,7 +4,7 @@ import glob
 import os
 
 def load_data(data_folder):
-    csv_files = glob.glob(os.path.join(data_folder, "**", "*points.csv"), recursive=True)
+    csv_files = glob.glob(os.path.join(data_folder, "**", "*points_csv.csv"), recursive=True)
 
     df_list = [pd.read_csv(file, low_memory=False) for file in csv_files]  
 
