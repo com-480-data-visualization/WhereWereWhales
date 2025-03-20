@@ -1,0 +1,10 @@
+pandas
+request
+numpy
+geopandas
+shapely
+sciborn
+matplotlib
+tqdm
+ast
+glob
