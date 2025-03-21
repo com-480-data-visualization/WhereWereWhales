@@ -111,7 +111,7 @@ Anomalies represent deviations from long-term averages. For example, the January
    - <strong><a href="https://seamap.env.duke.edu/">OBIS Seamap</a></strong> offers a heatmap of species distribution presence across the world map, allowing users to filter species and examine concentration levels.
   - <strong><a href="https://www.researchgate.net/publication/371807547_A_collaborative_and_near-comprehensive_North_Pacific_humpback_whale_photo-ID_dataset">Whales of Guerrero labs</a></strong> has used this dataset to track North Pacific humpback whale movements.
 
-- **Timeline of Threats**
+- **Timeline of Threats**:
 To represent threats to cetaceans, we plan to implement interactive line plots or 2D world maps, allowing users to explore many variables over time. Several visualizations have already been made using the datasets previously mentionned on topics such as: Sea Temperature: [Sea Surface Temperature line plot](https://marine.copernicus.eu/ocean-climate-portal/sea-surface-temperature), [NASA - 2D Temperature Map](https://earthobservatory.nasa.gov/images/151743/the-ocean-has-a-fever); Ship Strikes Evolution: [Ship Strikes Evolution Report](https://archive.iwc.int/pages/view.php?ref=17562&k=c9f67e8c17#); Whaling Activities: [2D Map](https://earth.org/international-whaling-commission/).
  
 
