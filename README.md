@@ -110,9 +110,14 @@ Anomalies represent deviations from long-term averages. For example, the January
 - **Global Sightings of Cetaceans**
    - <strong><a href="https://seamap.env.duke.edu/">OBIS Seamap</a></strong> offers a heatmap of species distribution presence across the world map, allowing users to filter species and examine concentration levels.
   - <strong><a href="https://www.researchgate.net/publication/371807547_A_collaborative_and_near-comprehensive_North_Pacific_humpback_whale_photo-ID_dataset">Whales of Guerrero labs</a></strong> has used this dataset to track North Pacific humpback whale movements.
+
+- **Timeline of Threats**
+To represent threats to cetaceans, we plan to implement interactive line plots or 2D world maps, allowing users to explore many variables over time. Several visualizations have already been made using the datasets previously mentionned on topics such as: Sea Temperature: [Sea Surface Temperature line plot](https://marine.copernicus.eu/ocean-climate-portal/sea-surface-temperature), [NASA - 2D Temperature Map](https://earthobservatory.nasa.gov/images/151743/the-ocean-has-a-fever); Ship Strikes Evolution: [Ship Strikes Evolution Report](https://archive.iwc.int/pages/view.php?ref=17562&k=c9f67e8c17#); Whaling Activities: [2D Map](https://earth.org/international-whaling-commission/).
  
 
 ### Originality
+
+- **Global Sightings of Cetaceans**
 Our approach integrates interactivity, enabling users to adjust parameters, highlight individual species with color coding, and explore seasonal migration patterns. Another unique aspect of our approach is the integration of conservation-challenged animals and protected marine areas, linking sightings with conservation efforts and highlighting the relationship between cetacean presence and protected regions. 
 
 By combining these elements into a single, integrated visualization, we highlight how various threats collectively impact cetacean populations, offering a more comprehensive understanding of their conservation needs.
@@ -120,14 +125,12 @@ By combining these elements into a single, integrated visualization, we highligh
 
 ### Inspiration
 
+- **Global Sightings of Cetaceans**
 We aim to develop a 3D Navigable Globe for visualizing cetacean sightings and conservation efforts. Notable JavaScript-based visualizations like [Populated Place Visualization in D3.js](https://blog.maptheclouds.com/learning/3d-globe-map-in-d3-js-populated-places-on-earth-%F0%9F%8C%8D) and [Population Heatmap in React](https://vasturiano.github.io/react-globe.gl/example/population-heatmap/) showcase interactive 3D globes displaying global datasets, which could be adapted for our project.
 
 
-To represent threats to cetaceans, we plan to implement interactive line plots and 2D world maps, allowing users to explore variables over time. Existing datasets provide insights into key threats, such as:
-
-- Sea Temperature: [Copernicus - Sea Surface Temperature line plot](https://marine.copernicus.eu/ocean-climate-portal/sea-surface-temperature), [NASA Earth Observatory - 2d Map](https://earthobservatory.nasa.gov/images/151743/the-ocean-has-a-fever)
-- Ship Strikes Evolution: [IWC Ship Strikes Evolution Report](https://archive.iwc.int/pages/view.php?ref=17562&k=c9f67e8c17#);
-- Whaling Activities: [Earth.org - 2d Map](https://earth.org/international-whaling-commission/).
+- **Timeline of Threats**
+The originality of our approach will come from combining all these factors into a single, integrated visualization. By visualizing these threats together, we aim to accentuate the cumulative and interconnected impact they have on cetacean populations, providing a more comprehensive understanding of the multiple dangers these animals face.
 
 
 ## Milestone 2 (18th April, 5pm)
