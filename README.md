@@ -81,6 +81,8 @@ As a really large number of events are present in the dataset and in order to vi
 
 <img src="figures_EDA/sighting_localization.png" width="800"/>
 
+Note that the marker size represents the number of animals observed in each sighting.
+
 #### 3. Multiple Threats: Challenges to Cetacean Survival
 #####  A- Climate disruption
 <img src="figures_EDA/temperature_anomalies.png" width="600"/>
