@@ -81,7 +81,7 @@ As a really large number of events are present in the dataset and in order to vi
 
 <img src="figures_EDA/sighting_localization.png" width="800"/>
 
-#### 2. Multiple Threats: Challenges to Cetacean Survival
+#### 3. Multiple Threats: Challenges to Cetacean Survival
 #####  A- Climate disruption
 <img src="figures_EDA/temperature_anomalies.png" width="600"/>
 Anomalies represent deviations from long-term averages. For example, the January 2021 anomaly is calculated as the difference between the sea surface temperature in January 2021 and the climatological average for all January months within the dataset's time span.
