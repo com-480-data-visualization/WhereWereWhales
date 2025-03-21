@@ -120,7 +120,7 @@ To represent threats to cetaceans, we plan to implement interactive line plots o
 Our approach integrates interactivity, enabling users to adjust parameters, highlight individual species with color coding, and explore seasonal migration patterns. Another unique aspect of our approach is the integration of conservation-challenged animals and protected marine areas, linking sightings with conservation efforts and highlighting the relationship between cetacean presence and protected regions. By combining these elements into a single, integrated visualization, we highlight how various threats collectively impact cetacean populations, offering a more comprehensive understanding of their conservation needs.
 
 - **Timeline of Threats**
-The originality of our approach will come from combining all these factors into a single, integrated visualization. By visualizing these threats together, we aim to accentuate the cumulative and interconnected impact they have on cetacean populations, providing a more comprehensive understanding of the multiple dangers these animals face.
+Our approach stands out by integrating all these factors into a single visualization, highlighting their cumulative and interconnected impact on cetaceans for a clearer understanding of the threats they face.
 
 
 ### Inspiration
