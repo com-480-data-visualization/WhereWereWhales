@@ -50,6 +50,10 @@ def load_happywhales_data(path_1 = "data\HappyWhales\location_cetacea_full_info.
     df_location_2 = df_location_2.rename(columns=column_mapping)
     
     df_location = pd.concat([df_location_1, df_location_2], ignore_index=True)
+    
+    df_location['species_name'] = df_location['species_name'].str.title()
+    df_location['scientific_name'] = df_location['scientific_name'].str.title()
+    df_location['common_name'] = df_location['common_name'].str.title()
 
     df_location.loc[df_location['locality'].isna(), 'locality'] = df_location['oceano'].apply(extract_country)
     df_location.loc[df_location['higher_geography'].isna(), 'higher_geography'] = df_location['oceano'].apply(extract_region)
