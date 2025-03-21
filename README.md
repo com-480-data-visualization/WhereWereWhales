@@ -58,6 +58,30 @@ The target audience for this project includes environmental activists, marine bi
 > Pre-processing of the data set you chose
 > - Show some basic statistics and get insights about the data
 
+#### 1. Sighting Data  
+The data processing was primarily performed during the download phase using the **OBIS Seamap** website, where we filtered for the relevant cetacean species. Two datasets were extracted, each containing similar information but with different column names.  To ensure consistency, these datasets were **concatenated** after aligning their column names and formats. 
+For more details on the exploratory data analysis, refer to the **EDA_location.ipynb** notebook.  
+
+<img src="figures_EDA/sighting_distribution.png" width="800"/>
+
+To visualize the locations of sightings on a world map, we grouped species based on the proximity of their sightings.  
+
+<img src="figures_EDA/sighting_localization.png" width="800"/>
+
+#### 2. Multiple Threats: Challenges to Cetacean Survival
+#####  A- Climate disruption
+<img src="figures_EDA/temperature_anomalies.png" width="600"/>
+
+#####  B- Maritime traffic
+<img src="figures_EDA/traffic_strikes.png" width="600"/>
+
+#####  C- Hunting
+<img src="figures_EDA/whale_catches.png" width="800"/>
+<img src="figures_EDA/whale_catches_countries.png" width="800"/>
+
+##### D- Protected Areas
+<img src="figures_EDA/protected_areas.png" width="800"/>
+
 ### Related work
 
 > - What others have already done with the data?
