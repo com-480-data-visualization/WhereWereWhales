@@ -49,7 +49,7 @@ This project aims to raise awareness about cetaceans, their phylogeny, their cur
 Through our visualizations, we aim to:
 1. **Global Overview**: Provide an overview of cetaceans around the world, highlighting the species that are extinct or endangered, using the Red-List status for reference. 
 2. **Phylogenetic Tree**: Present a phylogenetic tree to showcase the evolutionary relationships of cetaceans, highlighting extinct species and their connections to modern counterparts. 
-3. **Cetacean Sightings**: Display sightings of cetaceans around the globe to help users understand where they live and their migration patterns. 
+3. **Cetacean Sightings**: Display sightings of cetaceans around the globe to help users understand where they live and their migration patterns. Additionally, we aim to compare these locations with protected marine areas and regions of high-risk threats to assess conservation efforts and potential dangers.
 4. **Timeline of Threats**: Illustrate the cumulative and ongoing threats to cetaceans, such as the impact of climate change on oceans, maritime traffic, pollution and plastic contamination, and hunting practices over time.
 
 By presenting a comprehensive visualization of their global distribution, their history, and the cumulative impacts of human activities, we seek to inform the public about the critical state of cetacean populations.
