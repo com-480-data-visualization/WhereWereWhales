@@ -76,8 +76,7 @@ To visualize the locations of sightings on a world map, we grouped species based
 <img src="figures_EDA/traffic_strikes.png" width="600"/>
 
 #####  C- Hunting
-<img src="figures_EDA/whale_catches.png" width="800"/>
-<img src="figures_EDA/whale_catches_countries.png" width="800"/>
+<img src="figures_EDA/whale_catches_2plot.png" width="800"/>
 
 ##### D- Protected Areas
 <img src="figures_EDA/protected_areas.png" width="800"/>
