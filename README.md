@@ -116,18 +116,17 @@ To represent threats to cetaceans, we plan to implement interactive line plots o
  
 
 ### Originality
-- **Global Sightings of Cetaceans**
-Our approach integrates interactivity, enabling users to adjust parameters, highlight individual species with color coding, and explore seasonal migration patterns. Another unique aspect of our approach is the integration of conservation-challenged animals and protected marine areas, linking sightings with conservation efforts and highlighting the relationship between cetacean presence and protected regions. By combining these elements into a single, integrated visualization, we highlight how various threats collectively impact cetacean populations, offering a more comprehensive understanding of their conservation needs.
 
-- **Timeline of Threats**
-Our approach stands out by integrating all these factors into a single visualization, highlighting their cumulative and interconnected impact on cetaceans for a clearer understanding of the threats they face.
+Our approach integrates interactivity, enabling users to adjust parameters, highlight individual species with color coding, and explore seasonal migration patterns. Another unique aspect of our approach is the integration of conservation-challenged animals and protected marine areas, linking sightings with conservation efforts and highlighting the relationship between cetacean presence and protected regions as well as their evolutionary tree and how the different species of cetaceans differ from each other. By combining these elements into a single, integrated visualization, we highlight how various threats collectively impact cetacean populations, offering a more comprehensive understanding of their conservation needs.
 
 
 ### Inspiration
 
-- **Global Sightings of Cetaceans**
+- **Phylogenetic Tree of Cetaceans**
 
 Similarly to <a href="https://www.onezoom.org/life/@CETACEA=698424?otthome=@CETACEA%3D698424#x718,y927,w1.1043"> OneZoom </a>, we would like to create an interactive tree of the cetacean life displaying various information alongside by hovering or clicking on a leaf of their choice.
+
+- **Global Sightings of Cetaceans**
 
 We aim to develop a 3D Navigable Globe for visualizing cetacean sightings and conservation efforts. Notable JavaScript-based visualizations like [Populated Place Visualization in D3.js](https://blog.maptheclouds.com/learning/3d-globe-map-in-d3-js-populated-places-on-earth-%F0%9F%8C%8D) and [Population Heatmap in React](https://vasturiano.github.io/react-globe.gl/example/population-heatmap/) showcase interactive 3D globes displaying global datasets, which could be adapted for our project.
 
