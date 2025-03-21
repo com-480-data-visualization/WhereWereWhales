@@ -4,8 +4,6 @@ __pycache__/*
 
 # Heavy files
 data
-wiki_images
-wiki_images/*
 images_and_sounds
 images_and_sounds/*
 
