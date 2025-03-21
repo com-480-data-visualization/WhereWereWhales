@@ -23,7 +23,7 @@ Please, fill the following sections about your project.
 >
 > Hint: some good pointers for finding quality publicly available datasets ([Google dataset search](https://datasetsearch.research.google.com/), [Kaggle](https://www.kaggle.com/datasets), [OpenSwissData](https://opendata.swiss/en/), [SNAP](https://snap.stanford.edu/data/) and [FiveThirtyEight](https://data.fivethirtyeight.com/)), you could use also the DataSets proposed by the ENAC (see the Announcements section on Zulip).
 
-For this project, we are working with multiple datasets related to cetaceans.
+For this project, we are working with multiple datasets related to cetaceans. Their preprocessing steps are detailed in the EDA part below.
 
 - **Info about Cetacean**: 
 Basic information of all cetaceans can be found in the <strong><a href="https://en.wikipedia.org/wiki/List_of_cetaceans">wikipedia list of cetaceans</a></strong>. For each cetacean species, the list includes information about family, genus, species scientific and common name, level of endangerment, where they live, size illustration, and a photograph. Additionally, each cetacean species has its own wikipedia page with images and additional information. The list has been converted to a pandas dataframe. Images can be accessed via the Wikimedia <strong><a href="https://www.mediawiki.org/wiki/API:Main_page">API</a></strong>. 
