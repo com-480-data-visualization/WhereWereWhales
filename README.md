@@ -126,6 +126,9 @@ Our approach stands out by integrating all these factors into a single visualiza
 ### Inspiration
 
 - **Global Sightings of Cetaceans**
+
+Similarly to <a href="https://www.onezoom.org/life/@CETACEA=698424?otthome=@CETACEA%3D698424#x718,y927,w1.1043"> OneZoom </a>, we would like to create an interactive tree of the cetacean life displaying various information alongside by hovering or clicking on a leaf of their choice.
+
 We aim to develop a 3D Navigable Globe for visualizing cetacean sightings and conservation efforts. Notable JavaScript-based visualizations like [Populated Place Visualization in D3.js](https://blog.maptheclouds.com/learning/3d-globe-map-in-d3-js-populated-places-on-earth-%F0%9F%8C%8D) and [Population Heatmap in React](https://vasturiano.github.io/react-globe.gl/example/population-heatmap/) showcase interactive 3D globes displaying global datasets, which could be adapted for our project.
 
 
