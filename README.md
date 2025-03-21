@@ -41,10 +41,9 @@ Basic information of all cetaceans can be found in the <strong><a href="https://
 > - What am I trying to show with my visualization?
 > - Think of an overview for the project, your motivation, and the target audience.
 
-More than a century after the peak of commercial whaling, which decimated the world's oceans, most cetacean populations are still struggling to recover. They continue to face the cumulative impacts of various human activities. According to a <strong><a href="https://conbio.onlinelibrary.wiley.com/doi/10.1111/cobi.14090">study</a></strong> published in May 2023 in the journal Conservation Biology</a>, as of 2021, approximately 26% of whale, dolphin, and porpoise species are classified as threatened with extinction.
+More than a century after the peak of commercial whaling most cetacean populations are still struggling to recover. According to a study published in May 2023 in the journal Conservation Biology, as of 2021, approximately 26% of whale, dolphin, and porpoise species are classified as threatened with extinction.
 
-Why are cetacean populations still declining? Why are current conservation efforts insufficient?  
-This project aims to raise awareness about cetaceans, their phylogeny, their current global condition and the various threats they face. Known to be endangered species and very famous for their magnificence, this project proposes a playful, engaging and interesting way of navigating the history of modern cetaceans, from their biological classification to their reported locations around the world. By fostering heightened awareness, we aim to inspire action for stronger conservation measures, emphasizing the urgency of protecting these marine species, before they face irreversible decline.
+By creating a playful, engaging and interesting way of navigating information about modern cetaceans, this project aims to make information easily accessible and raise awareness about cetaceans, their phylogeny, their current global condition and the various threats they face.
 
 Through our visualizations, we aim to:
 1. **Global Overview**: Provide an overview of cetaceans around the world, highlighting the species that are extinct or endangered, using the Red-List status for reference. 
