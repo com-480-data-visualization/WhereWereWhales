@@ -3,7 +3,7 @@ __pycache__
 __pycache__/*
 
 # Heavy files
-data/HappyWhales/*
+data
 wiki_images
 wiki_images/*
 images_and_sounds
@@ -12,3 +12,8 @@ images_and_sounds/*
 # DS_Store
 .DS_Store
 */.DS_Store
+
+# images
+150px-A_bowhead_whale_breaches_off_the_coast_of_western_Sea_of_Okhotsk_by_Olga_Shpak%2C_Marine_Mammal_Council%2C_IEE_RAS.jpg
+150px-Cetacea_range_map_Bowhead_Whale.png
+250px-Bowhead_whale_size.svg.png
