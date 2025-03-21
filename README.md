@@ -43,14 +43,16 @@ For this project, we are working with multiple datasets related to cetacean.
 More than a century after the peak of commercial whaling, which decimated the world's oceans, most cetacean populations are still struggling to recover. They continue to face the cumulative impacts of various human activities. As of **[ADD DATE]**, approximately **[ADD VALUE]%** of whale, dolphin, and porpoise species are classified as threatened.  
 
 Why are cetacean populations still declining? Why are current conservation efforts insufficient?  
-This project aims to raise awareness about cetaceans, their philogeny, their current global condition and the various threats they face. Knows to be endangered species and very famous for their magnificency, this projects propose a playfull, engaging and interesting way of navigating the history of modern cetaceans, from their biological classification to their reported locations around the world. By fostering heightened awareness, we aim to inspire action for stronger conservation measures, emphasizing the urgency of protecting these marine species.
+This project aims to raise awareness about cetaceans, their philogeny, their current global condition and the various threats they face. Knows to be endangered species and very famous for their magnificency, this projects propose a playfull, engaging and interesting way of navigating the history of modern cetaceans, from their biological classification to their reported locations around the world. By fostering heightened awareness, we aim to inspire action for stronger conservation measures, emphasizing the urgency of protecting these marine species, before they face irreversible decline.
 
-With our visualizations we are trying to provide:
+Through our visualizations, we aim to:
 1. **Global Overview**: Provide an overview of cetaceans around the world, highlighting the species that are extinct or endangered, using the Red-List status for reference.  
 2. **Phylogenetic Tree**: Present a phylogenetic tree to showcase the evolutionary relationships of cetaceans, highlighting extinct species and their connections to modern counterparts.  
 3. **Cetacean Sightings**: Display sightings of cetaceans around the globe to help users understand where they live and their migration patterns.  
-4. **Timeline of Threats**: Illustrate the cumulative and ongoing threats to cetaceans, such as: Climate change impact on ocean, Maritime traffic, Pollution and Plastic contamination, Hunting  
-This visualization will integrate these aspects to present a comprehensive picture of cetacean populations, their history, and the dangers they face.
+4. **Timeline of Threats**: Illustrate the cumulative and ongoing threats to cetaceans, such as the impact of climate change on oceans, maritime traffic, pollution and plastic contamination, and hunting practices over time.
+
+By presenting a comprehensive visualization of their global distribution, their history, and the cumulative impacts of human activities, we seek to inform the public about the critical state of cetacean populations. 
+The target audience for this project includes environmental activists, marine biologists, educators, and the general public interested in wildlife conservation. By creating an engaging and interactive experience, we aim to captivate a broad audience and encourage a deeper understanding of the challenges cetaceans face, with the hope of fostering greater support for their protection. # TODO : to improve
 
 ### Exploratory Data Analysis
 
