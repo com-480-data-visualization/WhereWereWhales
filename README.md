@@ -61,15 +61,18 @@ The target audience for this project includes environmental activists, marine bi
 
 ### Related work
 
-- site de camille qui montre déjà une heatma des détections de cétacées
-- tree of life interactive website
-- Several websites/plateforms/organization already offer some visualizations of either the ddetected locations of cetaceans or their philogenetic tree but to our knowledge no website rpopose an aggregation of these informaiton into one interactive website. 
-- Other inspirations: github/website of the endangered wildlife?
-
 > - What others have already done with the data?
 > - Why is your approach original?
 > - What source of inspiration do you take? Visualizations that you found on other websites or magazines (might be unrelated to your data).
 > - In case you are using a dataset that you have already explored in another context (ML or ADA course, semester project...), you are required to share the report of that work to outline the differences with the submission for this class.
+
+Regarding the sighting data, <strong><a href="https://seamap.env.duke.edu/">OBIS Seamap</a></strong> has created a heatmap displaying species presence across the world map. This visualization includes various species such as cetaceans, sharks, seabirds, and more, allowing users to select specific species and view concentration levels. Additionally, a research paper from <strong><a href="https://www.researchgate.net/publication/371807547_A_collaborative_and_near-comprehensive_North_Pacific_humpback_whale_photo-ID_dataset">Whales of Guerrero labs</a></strong> has utilized this dataset to track and visualize the movement patterns of North Pacific humpback whales.
+Our approach introduces interactivity, allowing users to adjust parameters and focus on specific regions. By enabling the observation of individual species with distinct color coding and displaying sightings across different seasons, we aim to combine both presence data and migration patterns. This will help users better understand cetacean migration. Another unique aspect of our approach is the integration of protected marine areas, linking sightings with conservation efforts and highlighting the relationship between cetacean presence and protected regions.
+
+- site de camille qui montre déjà une heatma des détections de cétacées
+- tree of life interactive website
+- Several websites/plateforms/organization already offer some visualizations of either the ddetected locations of cetaceans or their philogenetic tree but to our knowledge no website rpopose an aggregation of these informaiton into one interactive website. 
+- Other inspirations: github/website of the endangered wildlife?
 
 ## Milestone 2 (18th April, 5pm)
 
