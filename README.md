@@ -59,18 +59,19 @@ The target audience for this project includes environmental activists, marine bi
 > - Show some basic statistics and get insights about the data
 
 #### 1. Sighting Data  
-The data processing was primarily performed during the download phase using the **OBIS Seamap** website, where we filtered for the relevant cetacean species. Two datasets were extracted, each containing similar information but with different column names.  To ensure consistency, these datasets were **concatenated** after aligning their column names and formats. 
+The data processing was primarily performed during the download phase using the **OBIS Seamap** website, where we filtered for the relevant cetacean species. Two datasets were extracted, each containing similar information but with different column names. To ensure consistency, these datasets were **concatenated** after aligning their column names and formats. This extracted dataset encompasses records of over 275191 sightings. Some location information, such as country and water zone, is missing for some sightings, but since we have the coordinates, we might not need it or could extract it if necessary. 
 For more details on the exploratory data analysis, refer to the **EDA_location.ipynb** notebook.  
 
 <img src="figures_EDA/sighting_distribution.png" width="800"/>
 
-To visualize the locations of sightings on a world map, we grouped species based on the proximity of their sightings.  
+As a really large number of events are present in the dataset and in order to visualize the locations of sightings on a world map, we group sightings of similar species and locations. We will determine whether this approach is necessary for the final website as well. 
 
 <img src="figures_EDA/sighting_localization.png" width="800"/>
 
 #### 2. Multiple Threats: Challenges to Cetacean Survival
 #####  A- Climate disruption
 <img src="figures_EDA/temperature_anomalies.png" width="600"/>
+Anomalies represent deviations from long-term averages. For example, the January 2021 anomaly is calculated as the difference between the sea surface temperature in January 2021 and the climatological average for all January months within the dataset's time span.
 
 #####  B- Maritime traffic
 <img src="figures_EDA/traffic_strikes.png" width="600"/>
