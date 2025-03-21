@@ -61,7 +61,17 @@ The target audience for this project includes environmental activists, marine bi
 > Pre-processing of the data set you chose
 > - Show some basic statistics and get insights about the data
 
-#### 1. Sighting Data  
+#### 1. Global info about Cetacean
+Because this data will be retrieved by ourselves, its quality depends on our scraping methods. Wikipedia has a clean and standardized structure for cetaceans articles and our downloading mainly relies on it to keep a corresponding structure. As a proof of concept, a few images that were successfully retrieved are present in our repository and we show some examples below. The retrieval of other images (comparison in sizes with humans, endangered index, location in the world) and textual information is still in process.
+
+
+| Photograph of the animal | Size comparison with human | World location of the species |
+|-------------------------|-------------------------|---------------------|
+| <img src="wiki_images/Atlantic spotted dolphin.jpg" width="300"/> | <img src="wiki_images/Blainville's beaked whale.svg" width="300"/> | <img src="wiki_images/Baird's beaked whale.png" width="300"/> |
+| Atlantic Spotted Dolphin | Blainville's Beaked Whale | Baird's Beaked Whale |
+
+
+#### 2. Sighting Data  
 The data processing was primarily performed during the download phase using the **OBIS Seamap** website, where we filtered for the relevant cetacean species. Two datasets were extracted, each containing similar information but with different column names. To ensure consistency, these datasets were **concatenated** after aligning their column names and formats. This extracted dataset encompasses records of over 275191 sightings. Some location information, such as country and water zone, is missing for some sightings, but since we have the coordinates, we might not need it or could extract it if necessary. 
 For more details on the exploratory data analysis, refer to the **EDA_location.ipynb** notebook.  
 
