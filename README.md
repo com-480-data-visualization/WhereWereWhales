@@ -141,7 +141,7 @@ Initial website: https://com-480-data-visualization.github.io/WhereWereWhales/
 
 We aim to create an interactive 2D navigable map showing cetacean sightings and how they align with marine protected areas. The user will be able to: select specific cetacean species, filter by conservation status (e.g., endangered species only), explore seasonal positioning to infer potential migration patterns, and choose a time range to observe changes across years. To manage dense data, similar sightings will be clustered to reduce visual clutter while preserving essential insights. The primary objective of this visualization is to highlight: where endangered cetacean species are most frequently sighted, how these areas overlap (or not) with current conservation efforts, and give preliminary insights into migration routes. An extra idea is to add a legend showing which countries still hunt whales, along with a 2D/3D toggle switch to switch between map views.
 
-<img src="figures_EDA/map_schema.png" width="600"/>
+<img src="figures_EDA/map_schema.png" width="800"/>
 
 **Tools:** d3.js Leaflet Lectures: 8.-Maps, 5.-Interactions
 
