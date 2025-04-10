@@ -30,10 +30,10 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto">
-                        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#projects">Part 1</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#projects">Part 2</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#signup">Part 3</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#intro">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#dangers">1- Threats</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#sightings">2- Sightings</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#p3">Part 3</a></li>
                     </ul>
                 </div>
             </div>
@@ -45,7 +45,7 @@
                     <div class="text-center">
                         <h1 class="mx-auto my-0 text-uppercase">Cetacea</h1>
                         <h2 class="text-white mx-auto mt-2 mb-5">Vanishing Giants – Mapping the Past, Present, and Future of Cetacea</h2>
-                        <a class="btn btn-primary" href="#about">Discover</a>
+                        <a class="btn btn-primary">Discover</a>
                     </div>
                 </div>
             </div>
@@ -67,25 +67,25 @@
             </div>
         </section> -->
         <!-- Projects-->
-        <section class="projects-section bg-light" id="projects">
+        <section class="projects-section bg-light" id="intro">
             <div class="container px-4 px-lg-5">
                 <!-- Featured Project Row-->
                 <div class="row gx-0 mb-4 mb-lg-5 align-items-center">
                     <div class="col-xl-8 col-lg-7"><img class="img-fluid mb-3 mb-lg-0" src="docs/assets/img/humpack.jpg" alt="..." /></div>
                     <div class="col-xl-4 col-lg-5">
                         <div class="featured-text text-center text-lg-left">
-                            <h4>Shoreline</h4>
-                            <p class="text-black-50 mb-0">Grayscale is open source and MIT licensed. This means you can use it for any project - even commercial projects! Download it, customize it, and publish your website!</p>
+                            <h4>Introduction</h4>
+                            <p class="text-black-50 mb-0">More than a century after the peak of commercial whaling most cetacean populations are still struggling to recover. According to a study published in May 2023 in the journal Conservation Biology, as of 2021, approximately 26% of whale, dolphin, and porpoise species are classified as threatened with extinction. By creating a playful, engaging and interesting way of navigating information about modern cetaceans, this project aims to make information easily accessible and raise awareness about cetaceans, their phylogeny, their current global condition and the various threats they face.</p>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section class="pattern bg-light">
+        <section class="pattern bg-light" id="dangers">
             <div class="container my-5"></div>
-                <div class="row justify-content-center">
-                    <div class="col-md-8">
+                <div class="row">
+                    <div class="col-md-11">
                         <h2 class="text-white mx-auto mt-2 mb-5">Multiple Threats: Challenges to Cetacean Survival</h2>
                         <div class="accordion" id="accordionPanelsStayOpenExample">
                             <div class="accordion-item">
@@ -95,10 +95,14 @@
                                 </button>
                             </h2>
                             <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
-                                <div class="accordion-body">
-                                Large cetaceans migrate thousands of kilometers to feed on krill in high latitudes, but climate change is disrupting these feeding grounds. As prey shifts and productivity declines, their ability to adapt remains uncertain.
+                                <div class="accordion-body d-flex align-items-center">
+                                    <div class="text-content" style="flex: 1; margin-right: 20px;">
+                                        Large cetaceans migrate thousands of kilometers to feed on krill in high latitudes, but climate change is disrupting these feeding grounds. As prey shifts and productivity declines, their ability to adapt remains uncertain.
+                                    </div>
+                                    <div class="image-content">
+                                        <img src="figures_EDA/temperature_anomalies.png" alt="Cetacean migration" class="img-fluid" style="max-width: 300px; height: auto;">
+                                    </div>
                                 </div>
-                            </div>
                             </div>
                             <div class="accordion-item">
                             <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
@@ -107,9 +111,14 @@
                                 </button>
                             </h2>
                             <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
-                                <div class="accordion-body">
-                                Intense maritime traffic increases the risk of ship collisions and adds constant underwater noise, disrupting cetaceans' vital sense of hearing.
+                                <div class="accordion-body d-flex align-items-center">                               
+                                    <div class="text-content" style="flex: 1; margin-right: 20px;">
+                                        Intense maritime traffic increases the risk of ship collisions and adds constant underwater noise, disrupting cetaceans' vital sense of hearing.
+                                    </div>
+                                    <div class="image-content">
+                                        <img src="figures_EDA/traffic_strikes.png" alt="Cetacean migration" class="img-fluid" style="max-width: 300px; height: auto;">
                                 </div>
+                            </div>
                             </div>
                             </div>
                             <div class="accordion-item">
@@ -130,9 +139,14 @@
                                     </button>
                                 </h2>
                                 <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFour">
-                                    <div class="accordion-body">
+                                    <div class="accordion-body d-flex align-items-center">                               
+                                        <div class="text-content" style="flex: 1; margin-right: 20px;">
                                      Despite a moratorium and the ban on international whaling trade, nearly 1,000 whales are killed annually for commercial purposes. Three countries: Norway, Japan, and Iceland, continue to hunt whales for commercial reasons.
+                                    </div>
+                                    <div class="image-content">
+                                        <img src="figures_EDA/whale_catches.png" alt="Cetacean migration" class="img-fluid" style="max-width: 400px; height: auto;">
                                 </div>
+                                    </div>
                              </div>
                         </div>
                     </div>
@@ -140,8 +154,15 @@
             </div>
         </section>
 
+        <section class="projects-section bg-light" id="sightings">
+            <div class="container px-2 px-lg-1 d-flex justify-content-center">
+                <div class="col-xl-10 col-lg-10"><img class="img-fluid mb-3 mb-lg-0" src="figures_EDA/map_schema.png" alt="..." />
+                </div>
+            </div>
+        </section>
 
-        <section class="projects-section bg-light" id="projects">
+
+        <section class="projects-section bg-light">
             <div class="container px-4 px-lg-5">
                 <!-- Project One Row-->
                 <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
