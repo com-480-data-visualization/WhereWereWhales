@@ -143,7 +143,15 @@ We aim to create an interactive 2D navigable map showing cetacean sightings and 
 
 <img src="figures_EDA/map_schema.png" width="800"/>
 
-**Tools:** d3.js Leaflet Lectures: 8.-Maps, 5.-Interactions
+**Tools:** d3.js, Leaflet **Lectures:** 8.-Maps, 5.-Interactions
+
+### Multiple Threats
+
+We plan to explore the multiple threats to cetacean survival through several visualizations. The first is a line plot showing the average sea temperature over the years, which can be linked to the previous map by investigating whether migration paths shift over time, potentially due to climate-related changes such as rising ocean temperatures. The second visualization will focus on maritime traffic, displaying a chart that tracks the number of ship strikes through the years, highlighting the impact of maritime traffic on cetacean populations. The third will address whaling activities with a dynamic stacked bar chart, showing the top 10 countries involved in whaling and segmented by whale type, which will track the evolution of whaling practices over time. 
+
+<img src="figures_EDA/threat_schema.png" width="800"/>
+
+**Tools:** d3.js **Lectures:** 4.-D3.js, 5.-Interactions
 
 ## Milestone 3 (30th May, 5pm)
 
