@@ -132,7 +132,7 @@ We aim to develop a 3D Navigable Globe for visualizing cetacean sightings and co
 
 
 ## Milestone 2 (18th April, 5pm)
-
+[pdf file](https://github.com/com-480-data-visualization/WhereWereWhales/blob/master/Milestone%202.pdf)
 
 ## Milestone 3 (30th May, 5pm)
 
