@@ -133,32 +133,6 @@ We aim to develop a 3D Navigable Globe for visualizing cetacean sightings and co
 
 ## Milestone 2 (18th April, 5pm)
 
-**10% of the final grade**
-
-Initial website: https://com-480-data-visualization.github.io/WhereWereWhales/
-
-### Map of Cetaceans Sightings
-
-We aim to create an interactive 2D navigable map showing cetacean sightings and how they align with marine protected areas. The user will be able to: select specific cetacean species, filter by conservation status (e.g., endangered species only), explore seasonal positioning to infer potential migration patterns, and choose a time range to observe changes across years. To manage dense data, similar sightings will be clustered to reduce visual clutter while preserving essential insights. The primary objective of this visualization is to highlight: where endangered cetacean species are most frequently sighted, how these areas overlap (or not) with current conservation efforts, and give preliminary insights into migration routes. An extra idea is to add a legend showing which countries still hunt whales, along with a 2D/3D toggle switch to switch between map views.
-
-<img src="figures_EDA/map_schema.png" width="800"/>
-
-**Tools:** d3.js, Leaflet **Lectures:** 8.-Maps, 5.-Interactions
-
-### Tree of life of Cetaceans
-One of the navigations pages we propose in our website is a tree of life of the extant species of cetaceans. This page can be accessible from the main page or from the two other navigation pages (the world map of cetaceans sighting and the identity cards book) thanks to a linked button on the corner of both pages. 
-This page is a dynamic tree displaying the branching evolution between the different species that allows the visitor to see how many species the cetaceans currently contains and to visualize the similarity and distances between each of them. As the visitor may zoom in some subparts of the tree, they may see the name of the families, subfamilies and geni each species belongs to. If the user wants to know more about a particular species, they may hover over one or click on their name and be redirected to its identity card. 
-In summary the tree of life page allows the visualization of the branching evolution of cetaceans as well as their families, subfamilies and geni.
-
-
-**Tools:** **Lectures:** 
-
-### Multiple Threats
-
-We plan to explore the multiple threats to cetacean survival through several visualizations. The first plot will address whaling activities with a dynamic stacked bar chart, showing the top 10 countries involved in whaling and segmented by whale type by years. Additionally, using a bar chart race, it will dynamically track the evolution of whaling practices over time, providing a clear view of the shifting trends in global whaling efforts. The second will focus on maritime traffic, displaying a chart that tracks the number of ship strikes through the years, highlighting the impact of maritime traffic on cetacean populations. The third will be a a line plot showing the average sea temperature over the years, which can be linked to the previous map by investigating whether migration paths shift over time, potentially due to climate-related changes such as rising ocean temperatures.
-<img src="figures_EDA/threat_schema.png" width="1000"/>
-
-**Tools:** d3.js **Lectures:** 4.-D3.js, 5.-Interactions
 
 ## Milestone 3 (30th May, 5pm)
 
