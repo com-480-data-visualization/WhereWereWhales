@@ -8,20 +8,19 @@
         <title>Where were whales</title>
         <link rel="icon" type="image/x-icon" href="docs/assets/logo_whale.png" />
         <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
-        <!-- Font Awesome icons (free version)-->
-        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
         <!-- Google fonts-->
         <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" />
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-        <!-- <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script> -->
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-        <link href="docs/styles.css" rel="stylesheet" />
+        <script src="https://d3js.org/d3.v6.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-4xRJzV9+F/VVtFQF6Bdxy3f0VMC2DNmP43aYf9gOf6R1sMSwDQZ8Z+8P6BpPR1n6jTewFJ9mZXzDvUX6xFT3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     </head>
     <body id="page-top">
         <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">1
             <div class="container px-4 px-lg-5">
                 <a class="navbar-brand" href="#page-top">Cetacea</a>
                 <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -38,6 +37,7 @@
                 </div>
             </div>
         </nav>
+        
         <!-- Masthead-->
         <header class="masthead">
             <div class="container px-4 px-lg-5 d-flex h-100 align-items-center justify-content-center">
@@ -111,13 +111,18 @@
                                 <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingOne">
                                     <div class="accordion-body">                               
                                         <div class="text-content" style="flex: 1; margin-right: 20px;">
-                                     Despite a moratorium and the ban on international whaling trade, nearly 1,000 whales are killed annually for commercial purposes. Three countries: Norway, Japan, and Iceland, continue to hunt whales for commercial reasons.
+                                        Despite a moratorium and the ban on international whaling trade in 1986, nearly 1,000 whales are killed annually for commercial purposes.
+                                        </div>
+                                    <div id="race-chart" style="margin-bottom: 20px;">
+                                        <div>
+                                            <button id="runRaceButton">Start Race</button>
+                                            <button id="playPauseButton" class="fa fa-pause"></button>
+                                        </div>
+                                        <div id="bar-chart-race-container" style="width: 100%; height: 700px; margin-bottom: 50px;"></div>
+
                                     </div>
-                                    <div class="image-content" style="text-align: center;">
-                                        <img src="figures_EDA/hunting_schema.png" alt="Cetacean migration" class="img-fluid" style="max-width: 400px; height: auto;">
                                 </div>
-                                    </div>
-                             </div>
+                            </div>
                             <div class="accordion-item">
                             <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
@@ -130,7 +135,9 @@
                                         Intense maritime traffic increases the risk of ship collisions and adds constant underwater noise, disrupting cetaceans' vital sense of hearing.
                                     </div>
                                     <div class="image-content">
-                                        <img src="figures_EDA/traffic_strikes.png" alt="Cetacean migration" class="img-fluid" style="max-width: 300px; height: auto;">
+                                        <div id="traffic_strike_plot">
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                             </div>
@@ -147,8 +154,8 @@
                                             Large cetaceans migrate thousands of kilometers to feed on krill in high latitudes, but climate change is disrupting these feeding grounds. As prey shifts and productivity declines, their ability to adapt remains uncertain.
                                         </div>
                                         <div class="image-content">
-                                            <img src="figures_EDA/temperature_anomalies.png" alt="Cetacean migration" class="img-fluid" style="max-width: 300px; height: auto;">
-                                        </div>
+                                            <div id="temperature_anomalies"></div>
+                                    </div>
                                     </div>
                                 </div>
                             <div class="accordion-item">
@@ -223,7 +230,7 @@
                     <div class="col-md-4 mb-3 mb-md-0">
                         <div class="card py-4 h-100">
                             <div class="card-body text-center">
-                                <i class="fa-solid fa-fish-fins"></i>
+                                <i class="fa-solid fa-fish"></i>
                                 <h4 class="text-uppercase m-0">Camille Challier</h4>
                                 <hr class="my-4 mx-auto" />
                                 <div class="small text-black-50">Neuro-X</div>
@@ -233,17 +240,17 @@
                     <div class="col-md-4 mb-3 mb-md-0">
                         <div class="card py-4 h-100">
                             <div class="card-body text-center">
-                                <i class="fa-solid fa-fish-fins"></i>
+                                <i class="fa-solid fa-fish"></i>
                                 <h4 class="text-uppercase m-0">Cyrill Strassburg</h4>
                                 <hr class="my-4 mx-auto" />
-                                <div class="small text-black-50"><a href="#!">SIE</a></div>
+                                <div class="small text-black-50">SIE</a></div>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-4 mb-3 mb-md-0">
                         <div class="card py-4 h-100">
                             <div class="card-body text-center">
-                                <i class="fa-solid fa-fish-fins"></i>
+                                <i class="fa-solid fa-fish"></i>
                                 <h4 class="text-uppercase m-0">Eglantine Vialaneix</h4>
                                 <hr class="my-4 mx-auto" />
                                 <div class="small text-black-50">Digital Humanities</div>
@@ -255,15 +262,18 @@
                     <a class="mx-2" href="https://github.com/com-480-data-visualization/WhereWereWhales"><i class="fab fa-github"></i></a>
                 </div>
             </div>
-        <footer class="footer small text-center text-white-50"><div class="container px-4 px-lg-5">Copyright &copy; Your Website 2023</div></footer>
+        <footer class="footer small text-center text-white-50"><div class="container px-4 px-lg-5"> Where Were Whales ~ Data Visualization 2025</div></footer>
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
         <script src="docs/scripts.js"></script>
-        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-        <!-- * *                               SB Forms JS                               * *-->
-        <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
-        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <script src="docs/challenges/BarChartRace.js"></script>
+        <script src="docs/challenges/main.js"></script>
+        <script src="https://d3js.org/d3.v6.min.js"></script>
+        <link href="docs/styles.css" rel="stylesheet" />
+        <script src="docs/challenges/traffic_plot.js" defer></script>
+        <script src="docs/challenges/climate.js" defer></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
         <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
     </body>
 </html>

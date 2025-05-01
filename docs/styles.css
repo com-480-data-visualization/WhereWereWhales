@@ -11168,15 +11168,6 @@ body {
 .contact-section .social {
   margin-top: 3rem;
 }
-.contact-section .social a {
-  text-align: center;
-  height: 3rem;
-  width: 3rem;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 75%, #000 100%), url("assets/img/bg-signup.jpg");;
-  border-radius: 100%;
-  line-height: 3rem;
-  color: rgba(255, 255, 255, 0.3);
-}
 .contact-section .social a:hover {
   color: rgba(255, 255, 255, 0.5);
 }
@@ -11247,7 +11238,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    position: relative;
+    /* position: relative; */
 }
 
 .accordion-button {
@@ -11277,4 +11268,9 @@ body {
 .accordion-item {
   background-color: transparent;  /* Make background transparent */
   border: none;                   /* Remove border */
+}
+
+.tooltip {
+  position: absolute !important; /* Make sure it's positioned absolutely */
+  z-index: 9999 !important; /* Force it to be on top */
 }
