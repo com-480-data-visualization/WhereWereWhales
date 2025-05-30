@@ -170,7 +170,7 @@ We aim to develop a 3D Navigable Globe for visualizing cetacean sightings and co
 │
 ├── Milestone_3/              # Final milestone deliverables
 │   ├── process book.pdf      # Process book document
-│   └── screencast/           # Presentation video or screencast files
+│   └── cetacea_short.mp4          # Presentation video or screencast files
 
 ```
 ### Project Technical Setup and Usage
