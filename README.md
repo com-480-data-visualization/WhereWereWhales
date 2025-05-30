@@ -138,7 +138,7 @@ We aim to develop a 3D Navigable Globe for visualizing cetacean sightings and co
 
 ### Deliverable:
 
-- 📘 [Process Book (PDF)](https://github.com/com-480-data-visualization/WhereWereWhales/blob/master/Milestone_3/process%20book.pdf)  
+- 📘 [Process Book (PDF)](https://github.com/com-480-data-visualization/WhereWereWhales/blob/master/Milestone_3/process_book.pdf)  
   A detailed overview of our project goals, design process, methodology, and evaluation.
 
 - 🎥 [Presentation Video](https://github.com/com-480-data-visualization/WhereWereWhales/blob/master/Milestone_3/)  
@@ -176,7 +176,8 @@ We aim to develop a 3D Navigable Globe for visualizing cetacean sightings and co
 ### Project Technical Setup and Usage
 
 The website was built using JavaScript, CSS, HTML, and D3.js.  
-Find the implementation here: https://github.com/eglantine-vialaneix/WhereWereWhalesLFS
+Find the implementation here: https://github.com/eglantine-vialaneix/WhereWereWhalesLFS 
+
 Data processing and exploratory data analysis (EDA) were performed using Python.
 
 ### Intended Usage
