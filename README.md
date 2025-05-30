@@ -66,7 +66,7 @@ Because this data will be retrieved by ourselves, its quality depends on our scr
 
 | Photograph of the animal | Size comparison with human | World location of the species |
 |-------------------------|-------------------------|---------------------|
-| <img src="Milestone_1/wiki_images/Atlantic spotted dolphin.jpg" width="300"/> | <img src="Milestone_1/wiki_images/Blainville's beaked whale.svg" width="300"/> | <img src="Milestone_1/wiki_images/Baird's beaked whale.png" width="300"/> |
+| <img src="Milestone_2/wiki_images/Atlantic spotted dolphin.jpg" width="300"/> | <img src="Milestone_2/wiki_images/Blainville's beaked whale.svg" width="300"/> | <img src="Milestone_2/wiki_images/Baird's beaked whale.png" width="300"/> |
 | Atlantic Spotted Dolphin | Blainville's Beaked Whale | Baird's Beaked Whale |
 
 
@@ -74,27 +74,27 @@ Because this data will be retrieved by ourselves, its quality depends on our scr
 The data processing was primarily performed during the download phase using the **OBIS Seamap** website, where we filtered for the relevant cetacean species. Two datasets were extracted, each containing similar information but with different column names. To ensure consistency, these datasets were **concatenated** after aligning their column names and formats. This extracted dataset encompasses records of over 275191 sightings. Some location information, such as country and water zone, is missing for some sightings, but since we have the coordinates, we might not need it or could extract it if necessary. 
 For more details on the exploratory data analysis, refer to the **EDA_location.ipynb** notebook.  
 
-<img src="figures_EDA/sighting_distribution.png" width="800"/>
+<img src="Milestone_1/figures_EDA/sighting_distribution.png" width="800"/>
 
 As a really large number of events are present in the dataset and in order to visualize the locations of sightings on a world map, we group sightings of similar species and locations. We will determine whether this approach is necessary for the final website as well. 
 
-<img src="figures_EDA/sighting_localization.png" width="800"/>
+<img src="Milestone_1/figures_EDA/sighting_localization.png" width="800"/>
 
 Note that the marker size represents the number of animals observed at this location.
 
 #### 3. Multiple Threats: Challenges to Cetacean Survival
 #####  A- Climate disruption
-<img src="figures_EDA/temperature_anomalies.png" width="600"/>
+<img src="Milestone_1/figures_EDA/temperature_anomalies.png" width="600"/>
 Anomalies represent deviations from long-term averages. For example, the January 2021 anomaly is calculated as the difference between the sea surface temperature in January 2021 and the climatological average for all January months within the dataset's time span.
 
 #####  B- Maritime traffic
-<img src="figures_EDA/traffic_strikes.png" width="600"/>
+<img src="Milestone_1/figures_EDA/traffic_strikes.png" width="600"/>
 
 #####  C- Hunting
-<img src="figures_EDA/whale_catches_2plot.png" width="800"/>
+<img src="Milestone_1/figures_EDA/whale_catches_2plot.png" width="800"/>
 
 ##### D- Protected Areas
-<img src="figures_EDA/protected_areas.png" width="800"/>
+<img src="Milestone_1/figures_EDA/protected_areas.png" width="800"/>
 
 ### Related work
 
