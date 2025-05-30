@@ -138,7 +138,7 @@ We aim to develop a 3D Navigable Globe for visualizing cetacean sightings and co
 
 ### Deliverable:
 
-- 📘 [Process Book (PDF)](https://github.com/com-480-data-visualization/WhereWereWhales/blob/master/Milestone_3/process%20book.pdf)  
+- 📘 [Process Book (PDF)](https://github.com/com-480-data-visualization/WhereWereWhales/blob/master/Milestone_3/process_book.pdf)  
   A detailed overview of our project goals, design process, methodology, and evaluation.
 
 - 🎥 [Presentation Video](https://github.com/com-480-data-visualization/WhereWereWhales/blob/master/Milestone_3/)  
