@@ -176,7 +176,8 @@ We aim to develop a 3D Navigable Globe for visualizing cetacean sightings and co
 ### Project Technical Setup and Usage
 
 The website was built using JavaScript, CSS, HTML, and D3.js.  
-Find the implementation here: https://github.com/eglantine-vialaneix/WhereWereWhalesLFS
+Find the implementation here: https://github.com/eglantine-vialaneix/WhereWereWhalesLFS 
+
 Data processing and exploratory data analysis (EDA) were performed using Python.
 
 ### Intended Usage
