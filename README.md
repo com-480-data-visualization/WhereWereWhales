@@ -136,7 +136,7 @@ We aim to develop a 3D Navigable Globe for visualizing cetacean sightings and co
 
 ## Milestone 3 (30th May, 5pm)
 
-[Process Book](https://github.com/com-480-data-visualization/WhereWereWhales/blob/master/Milestone_3/Process_book.pdf)
+[Process Book](https://github.com/com-480-data-visualization/WhereWereWhales/blob/master/Milestone_3/process%20book.pdf)
 [Video](https://github.com/com-480-data-visualization/WhereWereWhales/blob/master/Milestone_3/)
 [Website](https://eglantine-vialaneix.github.io/WhereWereWhalesLFS/)
 
