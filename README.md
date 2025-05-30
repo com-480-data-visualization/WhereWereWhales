@@ -66,7 +66,7 @@ Because this data will be retrieved by ourselves, its quality depends on our scr
 
 | Photograph of the animal | Size comparison with human | World location of the species |
 |-------------------------|-------------------------|---------------------|
-| <img src="wiki_images/Atlantic spotted dolphin.jpg" width="300"/> | <img src="wiki_images/Blainville's beaked whale.svg" width="300"/> | <img src="wiki_images/Baird's beaked whale.png" width="300"/> |
+| <img src="Milestone_2/wiki_images/Atlantic spotted dolphin.jpg" width="300"/> | <img src="Milestone_2/wiki_images/Blainville's beaked whale.svg" width="300"/> | <img src="Milestone_2/wiki_images/Baird's beaked whale.png" width="300"/> |
 | Atlantic Spotted Dolphin | Blainville's Beaked Whale | Baird's Beaked Whale |
 
 
@@ -74,27 +74,27 @@ Because this data will be retrieved by ourselves, its quality depends on our scr
 The data processing was primarily performed during the download phase using the **OBIS Seamap** website, where we filtered for the relevant cetacean species. Two datasets were extracted, each containing similar information but with different column names. To ensure consistency, these datasets were **concatenated** after aligning their column names and formats. This extracted dataset encompasses records of over 275191 sightings. Some location information, such as country and water zone, is missing for some sightings, but since we have the coordinates, we might not need it or could extract it if necessary. 
 For more details on the exploratory data analysis, refer to the **EDA_location.ipynb** notebook.  
 
-<img src="figures_EDA/sighting_distribution.png" width="800"/>
+<img src="Milestone_1/figures_EDA/sighting_distribution.png" width="800"/>
 
 As a really large number of events are present in the dataset and in order to visualize the locations of sightings on a world map, we group sightings of similar species and locations. We will determine whether this approach is necessary for the final website as well. 
 
-<img src="figures_EDA/sighting_localization.png" width="800"/>
+<img src="Milestone_1/figures_EDA/sighting_localization.png" width="800"/>
 
 Note that the marker size represents the number of animals observed at this location.
 
 #### 3. Multiple Threats: Challenges to Cetacean Survival
 #####  A- Climate disruption
-<img src="figures_EDA/temperature_anomalies.png" width="600"/>
+<img src="Milestone_1/figures_EDA/temperature_anomalies.png" width="600"/>
 Anomalies represent deviations from long-term averages. For example, the January 2021 anomaly is calculated as the difference between the sea surface temperature in January 2021 and the climatological average for all January months within the dataset's time span.
 
 #####  B- Maritime traffic
-<img src="figures_EDA/traffic_strikes.png" width="600"/>
+<img src="Milestone_1/figures_EDA/traffic_strikes.png" width="600"/>
 
 #####  C- Hunting
-<img src="figures_EDA/whale_catches_2plot.png" width="800"/>
+<img src="Milestone_1/figures_EDA/whale_catches_2plot.png" width="800"/>
 
 ##### D- Protected Areas
-<img src="figures_EDA/protected_areas.png" width="800"/>
+<img src="Milestone_1/figures_EDA/protected_areas.png" width="800"/>
 
 ### Related work
 
@@ -132,11 +132,58 @@ We aim to develop a 3D Navigable Globe for visualizing cetacean sightings and co
 
 
 ## Milestone 2 (18th April, 5pm)
-[pdf file](https://github.com/com-480-data-visualization/WhereWereWhales/blob/master/Milestone%202.pdf)
+[pdf file](https://github.com/com-480-data-visualization/WhereWereWhales/blob/master/Milestone_2/Milestone%202.pdf)
 
 ## Milestone 3 (30th May, 5pm)
 
-**80% of the final grade**
+### Deliverable:
+
+- 📘 [Process Book (PDF)](https://github.com/com-480-data-visualization/WhereWereWhales/blob/master/Milestone_3/process%20book.pdf)  
+  A detailed overview of our project goals, design process, methodology, and evaluation.
+
+- 🎥 [Presentation Video](https://github.com/com-480-data-visualization/WhereWereWhales/blob/master/Milestone_3/)  
+  A short video walkthrough showcasing our data visualization project and key insights.
+
+- 🌐 [Final Project Website](https://eglantine-vialaneix.github.io/WhereWereWhalesLFS/)  
+  Explore the live interactive visualization and learn more about our findings.
+
+###  Organisation:
+```
+.
+├── README.md
+├── requirements.txt
+│
+├── data/                     # Raw and processed datasets
+│
+├── Milestone_1/              # Initial exploratory data analysis and data extraction
+│   ├── figures_EDA/          # PNG images from EDA
+│   ├── EDA_location.py       # Map visualization and threat exploratory analysis
+│   ├── data_extractor.py     # Scripts for extracting map data
+│   ├── images.ipynb          # Notebook for scraping cetacean images from Wikipedia
+│   ├── utils.py              # Utility functions
+│   └── wikitables.ipynb      # Wikipedia data scraping and tree of life exploration
+│
+├── Milestone_2/              # Second milestone deliverables
+│   ├── tree_of_life/         # Figures related to the tree of life
+│   ├── wiki_images/          # PNG images of cetaceans
+│   └── Milestone_2.pdf       # Milestone 2 report
+│
+├── Milestone_3/              # Final milestone deliverables
+│   ├── process book.pdf      # Process book document
+│   └── screencast/           # Presentation video or screencast files
+
+```
+### Project Technical Setup and Usage
+
+The website was built using JavaScript, CSS, HTML, and D3.js.  
+Find the implementation here: https://github.com/eglantine-vialaneix/WhereWereWhalesLFS
+Data processing and exploratory data analysis (EDA) were performed using Python.
+
+### Intended Usage
+
+- Explore the datasets and understand the data cleaning and extraction process through the provided scripts and notebooks.  
+- Review milestone reports and visualizations to follow project progress and insights.  
+- Use the interactive website to explore whale sightings, threats, and species profiles.
 
 
 ## Late policy
