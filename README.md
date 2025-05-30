@@ -66,7 +66,7 @@ Because this data will be retrieved by ourselves, its quality depends on our scr
 
 | Photograph of the animal | Size comparison with human | World location of the species |
 |-------------------------|-------------------------|---------------------|
-| <img src="wiki_images/Atlantic spotted dolphin.jpg" width="300"/> | <img src="wiki_images/Blainville's beaked whale.svg" width="300"/> | <img src="wiki_images/Baird's beaked whale.png" width="300"/> |
+| <img src="Milestone_1/wiki_images/Atlantic spotted dolphin.jpg" width="300"/> | <img src="Milestone_1/wiki_images/Blainville's beaked whale.svg" width="300"/> | <img src="Milestone_1/wiki_images/Baird's beaked whale.png" width="300"/> |
 | Atlantic Spotted Dolphin | Blainville's Beaked Whale | Baird's Beaked Whale |
 
 
