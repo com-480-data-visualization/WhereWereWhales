@@ -136,6 +136,8 @@ We aim to develop a 3D Navigable Globe for visualizing cetacean sightings and co
 
 ## Milestone 3 (30th May, 5pm)
 
+### Deliverable:
+
 - 📘 [Process Book (PDF)](https://github.com/com-480-data-visualization/WhereWereWhales/blob/master/Milestone_3/process%20book.pdf)  
   A detailed overview of our project goals, design process, methodology, and evaluation.
 
@@ -144,6 +146,43 @@ We aim to develop a 3D Navigable Globe for visualizing cetacean sightings and co
 
 - 🌐 [Final Project Website](https://eglantine-vialaneix.github.io/WhereWereWhalesLFS/)  
   Explore the live interactive visualization and learn more about our findings.
+
+###  Organisation:
+```
+.
+├── README.md
+├── requirements.txt
+│
+├── data/                     # Raw and processed datasets
+│
+├── Milestone_1/              # Initial exploratory data analysis and data extraction
+│   ├── figures_EDA/          # PNG images from EDA
+│   ├── EDA_location.py       # Map visualization and threat exploratory analysis
+│   ├── data_extractor.py     # Scripts for extracting map data
+│   ├── images.ipynb          # Notebook for scraping cetacean images from Wikipedia
+│   ├── utils.py              # Utility functions
+│   └── wikitables.ipynb      # Wikipedia data scraping and tree of life exploration
+│
+├── Milestone_2/              # Second milestone deliverables
+│   ├── tree_of_life/         # Figures related to the tree of life
+│   ├── wiki_images/          # PNG images of cetaceans
+│   └── Milestone_2.pdf       # Milestone 2 report
+│
+├── Milestone_3/              # Final milestone deliverables
+│   ├── process book.pdf      # Process book document
+│   └── screencast/           # Presentation video or screencast files
+
+```
+### Project Technical Setup and Usage
+
+The website was built using JavaScript, CSS, HTML, and D3.js.  
+Find the implementation here: https://github.com/eglantine-vialaneix/WhereWereWhalesLFS
+
+### Intended Usage
+
+- Explore the datasets and understand the data cleaning and extraction process through the provided scripts and notebooks.  
+- Review milestone reports and visualizations to follow project progress and insights.  
+- Use the interactive website to explore whale sightings, threats, and species profiles.
 
 
 ## Late policy
